@@ -1,20 +1,21 @@
 {
-  "name": "backend",
+  "name": "todo-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN Todo Backend deployed on Render",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["mern", "todo", "express", "mongodb", "render"],
+  "author": "Lokesh",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "mongoose": "^9.1.5"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
